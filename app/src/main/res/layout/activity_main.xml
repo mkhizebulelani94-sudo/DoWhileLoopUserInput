@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FA"
+    android:gravity="center"
+    android:padding="20dp"
+    android:elevation="6dp"
+    >
+    <!--Card Container-->
+    <LinearLayout
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:elevation="6dp">
+
+    <!--Title-->
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Counter App"
+    android:textSize="24sp"
+    android:textStyle="bold"
+    android:textColor="@color/black"
+    android:layout_marginBottom="10dp" />
+
+    <!--Subtitle-->
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Enter a number to count"
+    android:textSize="14dp"
+    android:textColor="@color/black"
+    android:layout_marginBottom="15dp"/>
+
+    <!--User Input-->
+    <EditText
+    android:id="@+id/editNumber"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:hint="Enter Number"
+    android:background="#EEF1F5"
+    android:padding="12dp"
+    android:textSize="16sp"
+    android:inputType="number"
+    android:layout_marginBottom="15dp" />
+
+    <!--Button-->
+    <Button
+    android:id="@+id/btnReset"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Start Counting"
+    android:textAllCaps="false"
+    android:textSize="16sp"
+    android:textColor="#FFFFFF"
+    android:backgroundTint="#4A90E2" />
+
+    <!--Output-->
+    <TextView
+    android:id="@+id/txtOutput"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Result will appear here"
+    android:textSize="18dp"
+    android:textColor="#333333"
+    android:layout_marginTop="20dp" />
+
+    </LinearLayout>
+</LinearLayout>
