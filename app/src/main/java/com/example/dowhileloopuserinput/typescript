@@ -1,0 +1,119 @@
+
+```ts
+// Welcome to the TypeScript Playground, this is a website
+// which gives you a chance to write, share and learn TypeScript.
+
+// You could think of it in three ways:
+//
+//  - A location to learn TypeScript where nothing can break
+//  - A place to experiment with TypeScript syntax, and share the URLs with others
+//  - A sandbox to experiment with different compiler features of TypeScript
+
+const anExampleVariable = "Hello World"
+console.log(anExampleVariable)
+
+let jack = 'Jack'
+console.log("Hello, " + jack + "!!")
+
+let Name :String = "Bob"
+let Age :Number =50
+let Married: Boolean =true
+console.log("Name, " +Name + "with the age : "+Age+" married : "+Married)
+
+let Career :String = "Doctor"
+let Degree :String = "Bachelor of Medicine"
+console.log("Career, " +Career + " and the degree needed is : "+Degree)
+
+let A = 30
+let B = 25
+let total = A + B
+console.log("The sum of A + B = "+total)
+
+let D = 20
+let C = 30
+let H = D * C
+console.log("the answer for D x C = "+H)
+
+let E = 150
+let P = 25
+let G = E/P
+console.log("the answer for G = E/P is: "+G)
+// To learn more about the language, click above in "Examples" or "What's New".
+// Otherwise, get started by removing these comments and the world is your playground.
+  
+```
+
+
+
+<details><summary><b>Output</b></summary>
+
+```ts
+"use strict";
+// Welcome to the TypeScript Playground, this is a website
+// which gives you a chance to write, share and learn TypeScript.
+// You could think of it in three ways:
+//
+//  - A location to learn TypeScript where nothing can break
+//  - A place to experiment with TypeScript syntax, and share the URLs with others
+//  - A sandbox to experiment with different compiler features of TypeScript
+const anExampleVariable = "Hello World";
+console.log(anExampleVariable);
+let jack = 'Jack';
+console.log("Hello, " + jack + "!!");
+let Name = "Bob";
+let Age = 50;
+let Married = true;
+console.log("Name, " + Name + "with the age : " + Age + " married : " + Married);
+let Career = "Doctor";
+let Degree = "Bachelor of Medicine";
+console.log("Career, " + Career + " and the degree needed is : " + Degree);
+let A = 30;
+let B = 25;
+let total = A + B;
+console.log("The sum of A + B = " + total);
+let D = 20;
+let C = 30;
+let H = D * C;
+console.log("the answer for D x C = " + H);
+let E = 150;
+let P = 25;
+let G = E / P;
+console.log("the answer for G = E/P is: " + G);
+// To learn more about the language, click above in "Examples" or "What's New".
+// Otherwise, get started by removing these comments and the world is your playground.
+
+```
+
+
+</details>
+
+
+<details><summary><b>Compiler Options</b></summary>
+
+```json
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "strictBindCallApply": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "target": "ES2017",
+    "jsx": "react",
+    "module": "ESNext",
+    "moduleResolution": "node"
+  }
+}
+```
+
+
+</details>
+
+**Playground Link:** [Provided](https://www.typescriptlang.org/play/?#code/PTAEHUFMBsGMHsC2lQBd5oBYoCoE8AHSAZVgCcBLA1UABWgEM8BzM+AVwDsATAGiwoBnUENANQAd0gAjQRVSQAUCEmYKsTKGYUAbpGF4OY0BoadYKdJMoL+gzAzIoz3UNEiPOofEVKVqAHSKymAAmkYI7NCuqGqcANag8ABmIjQUXrFOKBJMggBcISGgoAC0oACCbvCwDKgU8JkY7p7ehCTkVDQS2E6gnPCxGcwmZqDSTgzxxWWVoASMFmgYkAAeRJTInN3ymj4d-jSCeNsMq-wuoPaOltigAKoASgAywhK7SbGQZIIz5VWCFzSeCrZagNYbChbHaxUDcCjJZLfSDbExIAgUdxkUBIursJzCFJtXydajBBCcQQ0MwAUVWDEQC0gADVHBQGNJ3KAALygABEAAkYNAMOB4GRonzFBTBPB3AERcwABS0+mM9ysygc9wASmC7hoACsGLBEryAOQAKRN8XN0sasvliqVguF8H4fNAAGpQMbTd7+QBCQN8vWKA2gAByDJQ+WIqEonBGvL5ACF4NIpRGKsxY5H2IhpN8eQBWAAM4cgNAAso5KJBuPlQOm5R4vNyE+wlDLWwr4Mq+dHkB7vUOUD6+e9YV8xLnQE2+V6c5AvZ7EHWKA35-yvbWyPXuGGIwBhG7FuMJ4Y8-kAERq6DIWaroBvkFYkFj8cTyf5qZN2BFbEiWrBt1AySApR7J1+xdU9sjIEcvTgj9sQnMQeCwFBuDfbJ+g-bDXFEBcvVfd9ICPZ8ql5ABmCsI1Ta8ACYS0rGh0FQBhoGvKofVTe1KV7Z0+RwO5BALJJUh45tr0XdjOIomgbyYujn2Pa9aNY0ABWvJSACpQGPfjHUgPsBxnMxBCkbFknFF9QFBNSUy9AUFNAGlrwARnLTTaCYliIwAcWvGlgFoIzBJgvlzMpKycVsoLeRC3yhGIgK9RUHBmg8MgvEQcVnGBdg2LuRgk3YBhc34WBoHURIOXgPQRC8Pk6QZJlBE9Wy+XABxUHNYRI0gCQ+SCFQAHkvjId5BEgfhcyODiyAUVxpDwUAnDynQry+Ga0UQaFhEuGcJHFaIRAMDhsQWJhWA4HgghKIA)
+      
